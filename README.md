@@ -48,3 +48,18 @@ Sigue los pasos a continuación para ejecutar y configurar cada componente.
        "DefaultConnection": "Server=localhost;Database=nombre_de_tu_base_de_datos;User Id=tu_usuario;Password=tu_contraseña;"
      }
    }
+## 3. **Ejemplos JSON**
+
+Esta sección proporciona ejemplos de cómo consumir las APIs del proyecto utilizando herramientas como **Postman**.
+
+## Requisitos Previos
+
+- Tener **Postman** instalado. Puedes descargarlo desde [aquí](https://www.postman.com/downloads/).
+
+## Pasos para Importar los Archivos de Ejemplo
+
+1. **Importar los Archivos JSON:**
+   - En **Postman**, ve a la pestaña **"File"** y selecciona **"Import"**.
+   - Elige uno de los siguientes archivos para importar:
+     - **`Swagger.json`**: Contiene las solicitudes de las APIs configuradas para el proyecto.
+     - **`API Parqueadero.postman_collection`**: Contiene una colección completa de las APIs, organizada en carpetas por tipo de operación.
