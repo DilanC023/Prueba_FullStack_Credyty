@@ -1,5 +1,5 @@
 # Prueba_FullStack_Credyty
-# Implementación del Poryecto
+# Implementación del Proyecto
 
 Este proyecto incluye tres componentes principales:
 
