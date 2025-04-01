@@ -28,15 +28,18 @@ Sigue los pasos a continuación para ejecutar y configurar cada componente.
 6. Verifica que las vistas y procedimientos se hayan creado correctamente.
 ---
 
-## 2. **Configurar la Cadena de Conexión en el Proyecto API**
+## 2. **Configurar y Ejecutar el API en C# Core**
 
 ### Requisitos Previos:
 - Tener instalado [.NET Core SDK](https://dotnet.microsoft.com/download).
+- Tener instalado **Visual Studio** o **Visual Studio Code**.
 
 ### Pasos:
-1. Navega a la carpeta `app.API` en el proyecto.
-2. Abre el archivo `appsettings.json` (dependiendo de cómo esté configurado tu proyecto).
-3. Encuentra la sección de configuración de la cadena de conexión (`ConnectionString`) y actualiza el valor con la cadena de conexión de tu base de datos.
+1. Navega a la carpeta `App.API` en tu proyecto.
+2. **Abre el proyecto en Visual Studio** o **Visual Studio Code**:
+   - Si usas **Visual Studio**: Abre la solución `.sln` en la carpeta `App.API`.
+   - Si usas **Visual Studio Code**: Abre la carpeta `App.API` y abre la terminal integrada de VSCode.
+3. Configura la cadena de conexión en el archivo `appsettings.json` con la conexión a tu base de datos.
 
    Ejemplo de cadena de conexión en `appsettings.json`:
    ```json
